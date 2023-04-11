@@ -7,7 +7,7 @@ Shell is a program that takes our command and passes them to the operating syste
 ```
 root@874df82e1d5c:/# 
 ```
->**'root' :** Currently logged in user  
+**'root' :** Currently logged in user  
 **'874df82e1d5c' :** Name of the machine
 **'/' :** Where we are in the file system
 **'#' :** Represents the highest privileges 
