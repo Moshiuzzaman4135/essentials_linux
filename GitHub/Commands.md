@@ -26,3 +26,25 @@ $ git add ./dir/filename
 $ git commit -m "Commit message"
 $ git push
 ```
+
+- ### See status
+```
+$ git status
+```
+
+- ### See which branch is active
+```
+$ git branch
+```
+
+- ### Checkout and pull from other branch
+```
+$ git brach
+$ git checkout branchname
+$ git pull
+```
+
+- ### See log
+```
+$ git log
+```
