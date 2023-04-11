@@ -11,3 +11,18 @@ $ git branch -M main
 $ git remote add origin git@github.com:UserName/RepoName.git
 $ git push -u origin main
 ```
+
+- ### Adding all files and pushing to git repository
+```
+$ git add *
+$ git commit -m "Commit message"
+$ git push
+```
+
+
+- ### Adding specific file and pushing to git repository
+```
+$ git add ./dir/filename
+$ git commit -m "Commit message"
+$ git push
+```
