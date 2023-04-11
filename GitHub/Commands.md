@@ -1,4 +1,7 @@
-# Create a new repository on the command line
+# GitHub
+
+- ### Create a new repository on the command line
+
 ```
 $ echo "# text" >> README.md
 $ git init
