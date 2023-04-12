@@ -45,6 +45,8 @@ To explain
 ```
 lrwxrwxrwx   1 root root    7 Mar  8 02:05 bin -> usr/bin
 ```
+- Here :
+
 >'lrwxrwxrwx' permissions of the file/directory
 'root' means who owns the directory
 '7' is the size
