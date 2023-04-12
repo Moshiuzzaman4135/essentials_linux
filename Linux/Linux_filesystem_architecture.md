@@ -1,11 +1,11 @@
 # File Structure
-- ## Root ('/')
-- ### bin
-- ### boot
-- ### dev
-- ### etc
-- ### home
-- ### root
-- ### lib
-- ### var
-- ### proc
+-- ## Root ('/')
+-- ### bin
+-- ### boot
+-- ### dev
+-- ### etc
+-- ### home
+-- ### root
+-- ### lib
+-- ### var
+-- ### proc
