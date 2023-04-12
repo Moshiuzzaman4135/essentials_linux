@@ -19,3 +19,7 @@ cat file.txt file2.txt > combined.txt
 echo hello > filename.txt
 ```
 > Will write the text in a separate file
+### List directory and write in a file
+```
+ls -l /etc > test.txt
+```
