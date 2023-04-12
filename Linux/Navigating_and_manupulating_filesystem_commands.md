@@ -14,6 +14,11 @@ ls -1
 ```
 > To see them 1 item per line.
 ```
+ls 'relitive_path' or 'absolute_path'
+```
+> To see files of a specific directory
+
+```
 ls -l
 ```
 > To see long listing which includes more details.
@@ -51,3 +56,16 @@ lrwxrwxrwx   1 root root    7 Mar  8 02:05 bin -> usr/bin
 - > '7' is the size
 - > '7 Mar 8 02:05' means last modified
 
+- ### Change directory
+```
+cd 'relitive_path' or 'absolute_path'
+```
+To go to root:
+```
+cd /root
+```
+
+To go to home directory
+```
+cd ~
+```
