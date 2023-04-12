@@ -167,17 +167,15 @@ E: Package 'nano' has no installation candidate
 apt update
 ```
 > If we run 'apt list' now we will be able to see all the updated list of apt package database
-
-
-
-
----------------------------------------------
-- ### Test
+Now if we use after *update*
 ```
+apt install nano
+```
+The nano package will be installed.
+> So before installing a package 'apt update' must be used
 
+We can check if nano is installed by opening nano with following command
 ```
-Output:
+nano
 ```
-
-```
-> 
+Nano editor should be opened
