@@ -13,6 +13,7 @@ ls
 ls -1
 ```
 > To see them 1 item per line.
+```
 ls -l
 ```
 > To see long listing which includes more details.
