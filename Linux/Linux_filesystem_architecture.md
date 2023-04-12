@@ -1,20 +1,20 @@
 # File Structure
 - ## Root ('/')
 - ### bin
->> Contains Binaries or programs.
+> Contains Binaries or programs.
 - ### boot
->> Contains all the files related to booting.
+> Contains all the files related to booting.
 - ### dev
->> Shortcut for a devices. In linux everything including devices are even files. Files that are needed to access the devices are stored in the directory.
+> Shortcut for a devices. In linux everything including devices are even files. Files that are needed to access the devices are stored in the directory.
 - ### etc
->> Shortcut for editable text configuration . Stores configuration files.
+> Shortcut for editable text configuration . Stores configuration files.
 - ### home
->> Home directory with data for multiple users are stored.
+> Home directory with data for multiple users are stored.
 - ### root
->> Home directory of the *root* user . Only root user can access the directory.
+> Home directory of the *root* user . Only root user can access the directory.
 - ### lib
->> Used for keeping library files like software library dependecies. 
+> Used for keeping library files like software library dependecies. 
 - ### var
->> Short for variable. Files that are updated frequently are stored here. Like log file and application data.
+> Short for variable. Files that are updated frequently are stored here. Like log file and application data.
 - ### proc
->> Files that represents running processes.
+> Files that represents running processes.
