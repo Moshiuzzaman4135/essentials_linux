@@ -69,3 +69,33 @@ To go to home directory
 ```
 cd ~
 ```
+- ### Create directory
+```
+mkdir test
+```
+> Blue texts using 'ls' commands are directories
+- ### Rename directory
+```
+mv test docker
+```
+- ### Create a new file inside a directory
+```
+touch hello.txt
+```
+- ### Create multiple files at once
+```
+touch file1.txt file2.txt file3.txt
+```
+- ### Move files in another directory
+```
+mv hello.txt ../
+```
+- ### Remove 1 or muliple or All files at once
+```
+rm file1.txt file2.txt
+```
+To remove directory
+```
+rm -r directory_name/
+```
+
