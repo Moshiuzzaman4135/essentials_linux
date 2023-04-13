@@ -37,3 +37,7 @@ GET "KEYNAME"
 ```
 eval "return #redis.pcall('keys', '*AM')" 0
 ```
+### See count of ZCARD that updates every_second
+```
+watch -n 5 "redis-cli -p 6379 -n 0 ZCARD input_zset"
+```
