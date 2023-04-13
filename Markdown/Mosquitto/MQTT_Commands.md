@@ -7,6 +7,21 @@ apt-get install mosquitto-clients
 ```
 mosquitto
 ```
+## Start mosquitto
+```
+sudo systemctl start mosquitto
+```
+## Status mosquitto
+```
+sudo systemctl status mosquitto
+```
+## Stop mosquitto
+```
+sudo service mosquitto stop
+sudo systemctl stop mosquitto.service
+```
+
+
 
 ### To publish in a topic with mosquitto with a file payload
 ```

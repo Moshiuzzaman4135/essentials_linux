@@ -69,5 +69,19 @@ Output:
 echo hello
 hello
 ```
-
-
+- ### file count in a directory
+```
+ls -A | wc -l
+```
+- ### Watch file count in a directory that updates every second
+```
+watch -n 1 "ls -A | wc -l"
+```
+- ### Directory size 
+```
+du -sh
+```
+- ### Watch directory size that updates every second
+```
+watch -n 1 'du -sh'
+```
