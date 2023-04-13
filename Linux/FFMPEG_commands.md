@@ -65,7 +65,7 @@ Download and unzip the file and run the server with the following command
 ```
 - ### Feed video to rtsp simple server
 ```
-ffmpeg -re -stream_loop -1 -i 9car.mp4 -c copy -f rtsp rtsp://localhost:8554/mystream
+ffmpeg -re -stream_loop -1 -i video.mp4 -c copy -f rtsp rtsp://localhost:8554/mystream
 ```
 ### To view/access rtsp feed
 ```
