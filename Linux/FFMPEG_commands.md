@@ -57,7 +57,7 @@ cat segment1_0_av.ts segment2_0_av.ts segment3_0_av.ts > all.ts
 ffmpeg -i all.ts -acodec copy -vcodec copy all.mp4
 ```
 ## RTSP simple stream server
-Download rtsp simple server from here [here](https://github.com/aler9/mediamtx/releases)
+Download rtsp simple server from [here](https://github.com/aler9/mediamtx/releases)
 #### For linux
 Download and unzip the file and run the server with the following command
 ```
