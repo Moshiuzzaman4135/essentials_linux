@@ -71,3 +71,7 @@ ffmpeg -re -stream_loop -1 -i video.mp4 -c copy -f rtsp rtsp://localhost:8554/my
 ```
 rtsp://localhost:8554/mystream
 ```
+### To create a Variable time (15 seconds in this case) video from a single image
+```
+ffmpeg -loop 1 -i input_image.jpg -t 15 -c:v libx264 -pix_fmt yuv420p output_video.mp4
+```

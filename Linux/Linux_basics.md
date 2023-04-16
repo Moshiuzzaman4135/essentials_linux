@@ -85,3 +85,11 @@ du -sh
 ```
 watch -n 1 'du -sh'
 ```
+- ### Find similar file type and copy to a specific directory
+```
+find FIND_DIR -name "*.jpg" -exec cp "{}" COPY_TO_DIR  \;
+```
+- ### To check status of a specific port
+```
+ss -antpl | grep 1935
+```
