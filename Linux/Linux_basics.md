@@ -101,3 +101,15 @@ ssh username@password@server_ip
 ```
 scp -r username@server_ip:path/to/dir ./dir
 ```
+- ### Add hostname and ip in hotsfile 
+Open host file using nano
+```
+sudo nano /etc/hosts
+```
+Edit by putting the followings
+```
+192.168.0.1   test01
+192.168.0.2   test02
+192.168.0.3   test03
+```
+
