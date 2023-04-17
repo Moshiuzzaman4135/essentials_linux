@@ -36,3 +36,14 @@ sudo reboot
 ```
 #### Check that GPUs are visible using the command: ```nvidia-smi```
 #### Check output of ```nvcc --version``` command. Output should be "Cuda compilation tools, release 10.0, V10.0.130" 
+> ### Troubleshoot 
+> If `nvcc` command not found, add the following lines at the bottom of your ~/.bashrc file
+
+```
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+```
+### Watch GPU usage update every second
+```
+watch -n 1 -d nvidia-smi
+```

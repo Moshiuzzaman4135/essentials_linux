@@ -112,4 +112,23 @@ Edit by putting the followings
 192.168.0.2   test02
 192.168.0.3   test03
 ```
-
+- ### Set enviroment varibles
+```
+export VARIABLE_NAME=value
+```
+- ### Run a bash file
+```
+./basfile.sh
+```
+- ### Pkill a python process
+```
+pkill -f code.py
+```
+- ### Pkill a  process
+```
+pkill -9 process_id
+```
+- ### Grep a string from a file
+```
+grep -i'String to find' log_file.log
+```

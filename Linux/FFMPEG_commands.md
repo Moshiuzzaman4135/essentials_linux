@@ -56,6 +56,10 @@ ffplay -vf "drawtext=fontfile=/path/to/font.ttf:text='V1':fontcolor=white:fontsi
 cat segment1_0_av.ts segment2_0_av.ts segment3_0_av.ts > all.ts
 ffmpeg -i all.ts -acodec copy -vcodec copy all.mp4
 ```
+- ### DAV to mp4 conversion
+```
+ffmpeg -y -i video.dav -c:v libx264 -filter:v "setpts=3*PTS" output.mp4
+```
 ## RTSP simple stream server
 Download rtsp simple server from [here](https://github.com/aler9/mediamtx/releases)
 #### For linux
