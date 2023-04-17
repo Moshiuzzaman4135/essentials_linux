@@ -35,4 +35,8 @@ mosquitto_pub -h 127.0.0.1 -t /topic -m 'Message'
 ```
 mosquitto_sub -h 127.0.0.1 -t /topic
 ```
+### See mqtt connection summary for every second
+```
+watch -n1 "netstat -anl | grep 1883 | awk '/^tcp/ {t[\$NF]++} END{for(state in t){print state, t[state]} }'"
+```
 

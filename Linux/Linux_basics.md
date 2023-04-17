@@ -93,3 +93,11 @@ find FIND_DIR -name "*.jpg" -exec cp "{}" COPY_TO_DIR  \;
 ```
 ss -antpl | grep 1935
 ```
+- ### Connect using ssh
+```
+ssh username@password@server_ip
+```
+- ### Copy file from server using SCP
+```
+scp -r username@server_ip:path/to/dir ./dir
+```
