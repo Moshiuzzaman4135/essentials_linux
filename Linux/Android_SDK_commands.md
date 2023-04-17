@@ -28,3 +28,11 @@ adb start-server
 ```
 adb kill-server
 ```
+### Create screen 
+```
+screen -S screen_name
+```
+### Reattach to screen 
+```
+screen -rd screen_name
+```

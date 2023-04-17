@@ -12,3 +12,15 @@ python3 -m http.server
 ```
 python -m http.server 8000 --bind 127.0.0.1
 ```
+### Create venev
+```
+python3.6 -m venv ~/venvs/venv_name
+```
+### Upgrade pip ,setuptools and wheel
+```
+pip install --upgrade pip wheel setuptools
+```
+### Install from requirements text file without cache
+```
+pip install -r requirements.txt --no-cache-dir
+```
