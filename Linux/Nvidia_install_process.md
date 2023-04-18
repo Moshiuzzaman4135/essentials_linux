@@ -22,7 +22,10 @@ sudo apt-get --purge remove "*nvidia*" "libxnvctrl*"
 sudo apt-get autoremove
 ```
 #### `No Restart needed`
-
+sss
 ## 2. Package manager
 Follow these for updated instruction : [here](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#package-manager)
 #### `nvidia-smi` command should worl after `restart`
+## 3. Install cuda-toolkit 
+> Here installing instructions for cuda 11 on network on desired ubuntu versionn
+Follow these for updated instruction : [here](https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork)
