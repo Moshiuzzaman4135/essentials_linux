@@ -1,3 +1,6 @@
+# CUDA
+## `Try to follow Nvidia_install_process.md file procedure instead of this`  
+> ## `Best to install Cuda dependencies using conda`  
 ## Nvidia
 ### Remove all previous cuda , cudnn and nvidia dependencies
 ```
@@ -27,6 +30,7 @@ sudo apt-get update
 sudo apt-get install --no-install-recommends nvidia-driver-430
 sudo reboot
 ```
+
 #### Check that GPUs are visible using the command: ```nvidia-smi```
 
 ### Install development and runtime libraries
