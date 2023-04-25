@@ -169,3 +169,7 @@ hostname -I
 sudo apt install neofetch
 neofetch
 ```
+### See manual of a command
+```
+man 'cmd_name'
+```
