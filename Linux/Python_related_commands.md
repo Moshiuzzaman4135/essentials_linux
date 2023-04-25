@@ -35,6 +35,10 @@ conda create --name env_name python=3.6
 ```
 ### Crteate environment with other dependencies
 ```
+conda create --name yolov7-deepsort cudatoolkit cudnn python=3.9.13 pip
+```
+or with torch also
+```
 conda create -n env_name python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision -c pytorch -y
 ```
 ### Activate and environment
