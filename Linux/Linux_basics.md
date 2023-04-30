@@ -173,3 +173,7 @@ neofetch
 ```
 man 'cmd_name'
 ```
+### Set environment variable
+```
+export VARIABLE_NAME=value
+```
