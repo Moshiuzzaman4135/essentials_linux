@@ -182,3 +182,17 @@ export VARIABLE_NAME=value
 sudo apt-add-repository ppa:reponame
 sudo apt update
 ```
+### Remove unresolved repository errors by removing repository
+Rmove the specifice repos file here one example is given
+```
+cd /etc/apt/sources.list.d/
+rm -rf deadsnakes-ubuntu-nightly-jammy.list
+```
+Then check the sources file in `/etc/apt`
+```
+sudo nano sources.list
+```
+Run update command to update the repos
+```
+sudo apt update
+```
