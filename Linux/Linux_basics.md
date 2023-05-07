@@ -177,3 +177,8 @@ man 'cmd_name'
 ```
 export VARIABLE_NAME=value
 ```
+### Add repository
+```
+sudo apt-add-repository ppa:reponame
+sudo apt update
+```
