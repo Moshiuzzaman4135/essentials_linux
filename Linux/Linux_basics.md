@@ -196,3 +196,16 @@ Run update command to update the repos
 ```
 sudo apt update
 ```
+### If cannot connect to global network but connect to local network
+Check the file 
+```
+sudo nano /etc/resolv.conf
+```
+Change the nameserver if needed
+```
+nameserver 8.8.8.8
+```
+Ping to google to check connectivity
+```
+ping google.com
+```
