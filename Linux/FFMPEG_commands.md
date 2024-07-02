@@ -71,6 +71,10 @@ Download and unzip the file and run the server with the following command
 ```
 ffmpeg -re -stream_loop -1 -i video.mp4 -c copy -f rtsp rtsp://localhost:8554/mystream
 ```
+- ### Feed RTSP to rtsp simple server
+```
+ffmpeg -i "rtsp://username:pass@127.0.0.1:554/cam/1" -f rtsp -rtsp_transport tcp rtsp://127.0.0.1:8554/mystream
+```
 ### To view/access rtsp feed
 ```
 rtsp://localhost:8554/mystream
