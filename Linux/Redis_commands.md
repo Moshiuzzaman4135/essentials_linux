@@ -41,3 +41,7 @@ eval "return #redis.pcall('keys', '*AM')" 0
 ```
 watch -n 5 "redis-cli -p 6379 -n 0 ZCARD input_zset"
 ```
+### To get subscribed for expired events
+```
+redis-cli config set notify-keyspace-events EX
+```
